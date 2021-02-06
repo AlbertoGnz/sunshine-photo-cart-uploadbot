@@ -5,10 +5,11 @@ Automated with Python and Selenium. Allows me to drop folders with raw files, an
 
 # Before run.
 Change your blog URL, login details, mail (Including SMTP and login details), and notification receiver mail.
+Make sure to point correct path to selenium driver.
 
 
 # How to run it.
-I have a cron job to run it everyday early morning.
+I have a cron job to run test.py everyday early morning.
 Simply drop the folders that contains images to "En cola" (Means on queue) with the follow name mask: password. Gallery
 The "." separates the password and the gallery tittle
 If everything runs correctly, you will get the galleries created automatically and the folder will be moved to "Procesados" (Processed)
